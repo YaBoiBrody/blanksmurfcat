@@ -1,0 +1,76 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: rgb(35, 31, 32);
+  padding-bottom: 110px;
+  margin: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 36px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+}
+
+h3 {
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+  font-family: '8bit', sans-serif;
+  margin-top: 50px;
+}
+
+h4 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  font-family: '8bit', sans-serif;
+  margin-top: 32px;
+}
+
+br {
+  user-select: none;
+}
+
+footer {
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Cairo', sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/Orbitron-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  src: url('../fonts/cairo/Cairo-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: '8bit';
+  src: url('../fonts/8bit/8bit.TTF') format('truetype');
+}
